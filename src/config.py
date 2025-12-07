@@ -31,7 +31,7 @@ class Config:
         if not os.path.exists(cls.LORA_CHECKPOINT_PATH):
             print(f"⚠️ 注意: LoRA适配器路径不存在: {cls.LORA_CHECKPOINT_PATH}")
         
-        print("✅ 配置加载完成")
+        
 
 # 初始化配置
 Config.create_dirs()
